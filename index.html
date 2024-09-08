@@ -1,54 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kaTravel</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>KathTravel</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="header-container">
-            <h1>KaTravel</h1>
-            <nav>
-                
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Travel Log.html">Travel Log</a></li>
-                    <li><a href="About.html">About</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Palawan's Hidden Gem</h2>
-            <p>Explore Palawan with me.</p>
-            <a href="Travel Log.html" class="button">My Travels</a>
-        </div>
-    </section>
- 
-
-<footer>
-    <div class="footer-container">
-        <div class="footer-social">
-            <h2>Follow Me</h2>
-                <a href="https://www.facebook.com/Iniekatrinadanio1215" class="fb">
-                    <img src="fb.png" alt="Facebook" width="50">
-                </a>
-                <a href="https://www.instagram.com/katrinaaaxv/" class="ig">
-                    <img src="instagram.png" alt="Instagram" width="50">
-                </a>
-        </div>
-        <div class="footer-info">
-            <h2>Contact Me:</h2>
-            <p>Townsite, Rio Tuba, Palawan, Philippines</p>
-            <p>Email: ainiekatrina@gmail.com</p>
+<body data-spy="scroll" data-target=".fixed-top">
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
         </div>
     </div>
-</footer>
+    
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
 
-    <script src="script.js"></script>
+        <a class="navbar-brand logo-text page-scroll" href="index.html">Kath<span class="text-white">TRAVEL</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#blog">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#destination">DESTINATION</a>
+                </li>        
+                <li class="nav-item dropdown">
+                    <a class="nav-link page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="#your-link"> <!--link ng fb lagay mo-->
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="#your-link"> <!--link ng ig lagay mo-->
+                        <i class="fab fa-instagram fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav>
+
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1><span id="js-rotating">NATURE, URBAN, COUNTRY SIDE</span></h1>
+                            <p class="p-heading p-large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ab tenetur velit ipsum fugit enim eveniet, veritatis iste odit voluptatum eos similique ipsam nostrum quam minima sint vel omnis aperiam!</p>
+                            <a class="btn-solid-lg page-scroll" href="#destination">DISCOVER</a>
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </header> 
+
+
+    <!-- BLOG SECTION -->
+    <div id="blog" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="text-container">
+                        <div class="section-title">LAGAY MO DITO ABOUT SA NAG BA BLOG</div>
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ut adipisci, quo, eligendi iste fugit sequi inventore consequatur magni perferendis, voluptas qui. Repellat consequuntur autem nihil voluptatem a magnam eligendi.</p>
+                    </div> 
+                </div> 
+                <div class="col-lg-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/intro-office.jpg" alt="alternative">
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    
+
+    
+	<div id="details" class="accordion">
+		<div class="area-1">
+		</div><!-- hayan mo lang to dito pang space lang to haha --><div class="area-2">
+            <div class="accordion-container" id="accordionOne">
+                <h2>LAGAY MO LANG DITO PARANG HIGHLIGHTS NA LUGAR OR DELETE MO LANG TONG BUONG BLOCK PAG DI KAILANGAN</h2>
+                <div class="item">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ad corrupti saepe, corporis cum necessitatibus magnam laboriosam veniam quibusdam consequuntur aliquid sapiente, voluptate nihil debitis. Aspernatur consequatur cumque facere corporis.</p>
+                </div> 
+            </div> 
+		</div> 
+    </div> 
+
+	<div class="tabs">
+        <div class="area-1">
+            <div class="tabs-container">
+                <div class="tab-content" id="ariaTabsContent">
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                        <div class="accordion-container" id="accordionOne">
+                            <h2>LAGAY MO LANG DITO PARANG HIGHLIGHTS NA LUGAR OR DELETE MO LANG TONG BUONG BLOCK PAG DI KAILANGAN</h2>
+                            <div class="item">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ad corrupti saepe, corporis cum
+                                    necessitatibus magnam laboriosam veniam quibusdam consequuntur aliquid sapiente, voluptate nihil debitis.
+                                    Aspernatur consequatur cumque facere corporis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div><!-- pang space lang din to HAHAHAH --><div class="area-2"></div>
+    </div> 
+   
+
+	<div id="destination" class="filter">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">PROJECTS</div>
+                    <h2>Projects That We're Proud Of</h2>
+                </div> 
+            </div> 
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- PARANG ITO YUNG MGA CATEGORY NG MGA DESTINATION -->
+                    <div class="button-group filters-button-group">
+                        <a class="button is-checked" data-filter="*"><span>SHOW ALL</span></a>
+                        <a class="button" data-filter=".nature"><span>NATURE</span></a>
+                        <a class="button" data-filter=".urban"><span>URBAN</span></a>
+                        <a class="button" data-filter=".country-side"><span>COUNTRY SIDE</span></a>
+                    </div> 
+                    <div class="grid d-flex justify-content-center">
+                        <!-- ito isang box to dun sa destinations so if need mo mag add ng bagong item i duplicate mo lang to pero need nito ng partner sa baba yung sa details check mo lang yung comment ko -->
+                        <div class="element-item nature"> <!--tignan mo ito nature-->
+                            <a class="popup-with-move-anim" href="#el-nido"><div class="element-item-overlay"><span>EL NIDO</span></div><img src="images/el nido.jpg" alt="alternative"></a>
+                        </div>
+                        <!-- ----------------tapos para gumana yung filter yung parang category lagyan mo lang ng class yung item if nature or urban or whatever pwede mo din i custom----------------- -->
+                        <div class="element-item urban"> 
+                            <a class="popup-with-move-anim" href="#manila"><div class="element-item-overlay"><span>MANILA</span></div><img src="images/project-2.jpg" alt="alternative"></a>
+                        </div>
+                        <div class="element-item design country-sidee marketing">
+                            <a class="popup-with-move-anim" href="#tagkawayan"><div class="element-item-overlay"><span>TAGKAWAYAN</span></div><img src="images/project-3.jpg" alt="alternative"></a>
+                        </div>
+                    </div> 
+                  
+                </div> 
+            </div> 
+		</div> 
+    </div> 
+
+
+
+    <!-- ITO YUNG MGA DETAILS NG BAWAT BOX KAILANGAN SAME ID DUN SA TAAS PARA MAG MATCH -->
+     <!-- LIKE TO YUNG PARA ITO YUNG PARA SA EL NIDO   -->
+      <!-- TAPOS KAILANGAN MALAKI YUNG IMAGE NA ILALAGAY MO DITO SAME DUN SA TAAS KASI CHECK MO PAG MALIIT PANGIT TIGNAN DIBA -->
+
+      <!-- EL NIDO -->
+    <div id="el-nido" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/el nido.jpg" alt="alternative">
+            </div> 
+            <div class="col-lg-4">
+                <h3>EL NIDO</h3>
+                <hr class="line-heading">
+                <h6>NICE ROCK FORMATION HAHAHA BAHALA KANA SA DETAILS DITO</h6>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, ea omnis, sapiente modi ipsum excepturi minus et perspiciatis quos assumenda delectus at commodi. Voluptatum officia beatae iure quisquam laboriosam minus.</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#destination">BACK</a> 
+            </div>
+        </div> 
+    </div> 
+   
+    <!-- MANILA -->
+    <div id="manila" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/project-2.jpg" alt="alternative">
+            </div>
+            <div class="col-lg-4">
+                <h3>MANILA</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda culpa consequuntur tenetur possimus officia fugit, libero debitis distinctio molestias error autem obcaecati corrupti tempore recusandae beatae amet incidunt vero et?</h6>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate repellat, eum sequi nihil nesciunt facilis natus dolore nulla debitis laudantium temporibus omnis quaerat labore architecto deleniti dolorum consequuntur optio! Dolorum.</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#destination">BACK</a> 
+            </div> 
+        </div> 
+    </div> 
+
+    <!-- TAGKAWAYAN -->
+    <div id="tagkawayan" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">
+                <img class="img-fluid" src="images/project-3.jpg" alt="alternative">
+            </div> 
+            <div class="col-lg-4">
+                <h3>TAGKAWAYAN</h3>
+                <hr class="line-heading">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, numquam? Pariatur, autem qui unde, sint quas perspiciatis asperiores facere nobis quaerat veritatis voluptate libero itaque doloremque aspernatur distinctio architecto impedit!</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio corrupti modi, ab velit ea enim earum possimus alias! Alias, nam consectetur corporis expedita harum dolorum ut ex quas ullam!</p>
+                <a class="btn-outline-reg mfp-close as-button" href="#projects">BACK</a> 
+            </div> 
+        </div>
+    </div> 
+ 
+
+
+
+   
+
+
+    <!-- About -->
+    <div id="about" class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xl-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/about.jpg" alt="alternative">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-xl-6">
+                    <div class="text-container">
+                        <div class="section-title">ABOUT</div>
+                        <h2>LAGAY MO LANG DITO SOMETHING ABOUT WHY TRAVELING</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit corrupti esse soluta. Magnam neque quos, repellendus illum sunt reiciendis nobis animi dolorem pariatur, dicta, voluptatem doloribus veniam accusamus ipsum quod.</p>
+                    </div>    
+                </div> 
+            </div>
+        </div>
+    </div> 
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-container about">
+                        <h4>KathTravel</h4>
+                        <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia architecto quis, consequuntur nihil consectetur doloremque. Quod voluptatum eaque cum voluptas voluptatem quia officiis amet deserunt aut, unde iusto nostrum earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim magnam voluptas, voluptatibus eaque in minus corporis dolorem ab fuga atque asperiores saepe aliquid quos nobis similique quas totam provident.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2024 <a href="#">KathTravel</a></p>
+                </div> 
+            </div>
+        </div> 
+    </div> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- MGA JS TO NG GINAMIT KO NA LIBRARIES WAG MO DELETE HEHEHEH -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>

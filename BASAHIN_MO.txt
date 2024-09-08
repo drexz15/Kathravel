@@ -1,0 +1,6 @@
+IF need mo pa i custom yung galawin mo lang is yung style.css nasa css folder
+
+
+and wag ka delete ng gma files kasi mga libraries yarn hahahaha!!!
+
+SINGE PAGE WEBSITE TO SO WALA NA YUNG MGA IBANG HTML FILE BALE NAKA PER SECTION YUNG MGA NASA HEADER
