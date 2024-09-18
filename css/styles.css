@@ -824,6 +824,17 @@ strong {
 	border-radius: 0.375rem;
 }
 
+.element-item{
+	height: 200% !important;
+	width: 500px !important;
+}
+
+.element-item img {
+	height: 400px !important;
+	object-fit: cover;
+
+}
+
 .filter .element-item {
 	position: relative;
 	float: left;
@@ -1269,6 +1280,7 @@ a:hover.back-to-top {
 		padding-bottom: 7.5rem;
 	}
 
+	
 	.header h1 {
 		font: 700 3.5rem/4rem "Montserrat", sans-serif;
 	}
@@ -1327,6 +1339,8 @@ a:hover.back-to-top {
 		margin-top: 0.5rem;
 	}
 	/* end of extra pages */
+
+	
 }
 /* end of min-width width 768px */
 
